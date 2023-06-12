@@ -17,7 +17,7 @@ const Favourites = () => {
 
     let favourites;
 
-    if (fav.length>0) {
+    if (fav!==null) {
          favourites = fav.map((elem) => {
             return (
                 <div key={elem} className="flex items-center justify-between shadow-sm hover:shadow-sky-600 transition duration-300 bg-blue-900 hover:bg-blue-950 rounded-md p-2 mb-2">
