@@ -49,7 +49,7 @@ const HomePage = (props) => {
                     </div>
                 </Link>
             })}
-            {!isLoaded && <div>Loading...</div>}
+            {!isLoaded && <div className="text-3xl text-red-600 flex items-center justify-center h-screen">Loading...</div>}
         </div>
     );
 }

@@ -67,8 +67,8 @@ const DetailsPage = () => {
                 <span className="text-slate-100 italic">{detail.email}</span>
                 <span className="text-slate-100">{detail.phone}</span>
                 <span className="text-slate-100">{detail.street}{detail.suite}{detail.city}{detail.zipcode}</span>
-                <div className = "text-blue-500 cursor-pointer mt-4 border bg-blue-950 border-blue-500 rounded-md py-2 px-4 hover:bg-blue-500 hover:text-white" 
-                onClick={() => handleClick(detail.name)}>Add to Favorites</div>
+                <div className="text-blue-500 cursor-pointer mt-4 border bg-blue-950 border-blue-500 rounded-md py-2 px-4 hover:bg-blue-500 hover:text-white"
+                    onClick={() => handleClick(detail.name)}>Add to Favorites</div>
             </div>
         </div>
     );
